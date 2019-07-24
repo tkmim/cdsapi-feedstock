@@ -20,9 +20,11 @@ requirements:
     - pip
     - python
     - requests
+    - tqdm
   run:
     - python
     - requests
+    - tqdm
 
 test:
   imports:
