@@ -6,7 +6,8 @@ package:
   version: "{{ version }}"
 
 source:
-  url: https://files.pythonhosted.org/packages/2d/f0/40c8f2f36e2176bbce5557fc2a9bb570f807028968fdad6f4586a0656450/cdsapi-{{ version }}.tar.gz
+  #url: https://files.pythonhosted.org/packages/2d/f0/40c8f2f36e2176bbce5557fc2a9bb570f807028968fdad6f4586a0656450/cdsapi-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/ac/ba/1fb735337090e9a1151f62423b1cfaf3e0d44211f2627386e53197621ae2/cdsapi-0.1.6.tar.gz
   sha256: 003e82389f681b8a89b9af05752f380db37e26ebdd1b491cfd72763cbebe5830
 
 build:
