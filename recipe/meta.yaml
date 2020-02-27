@@ -1,14 +1,14 @@
 {% set name = "cdsapi" %}
-{% set version = "0.1.6" %}
+{% set version = "0.2.5" %}
 
 package:
   name: "{{ name|lower }}"
   version: "{{ version }}"
 
 source:
-  #url: https://files.pythonhosted.org/packages/2d/f0/40c8f2f36e2176bbce5557fc2a9bb570f807028968fdad6f4586a0656450/cdsapi-{{ version }}.tar.gz
-  url: https://files.pythonhosted.org/packages/ac/ba/1fb735337090e9a1151f62423b1cfaf3e0d44211f2627386e53197621ae2/cdsapi-0.1.6.tar.gz
-  sha256: 003e82389f681b8a89b9af05752f380db37e26ebdd1b491cfd72763cbebe5830
+  #url: https://files.pythonhosted.org/packages/ac/ba/1fb735337090e9a1151f62423b1cfaf3e0d44211f2627386e53197621ae2/cdsapi-0.1.6.tar.gz
+  url: https://files.pythonhosted.org/packages/e7/7c/3c5683c4c8dd89d79f87e05fc34c618b4c234c071bd111a8796a810b37cc/cdsapi-0.2.5.tar.gz
+  sha256: cbb484aa76a456ed9d2291337a8bc8e352106a44e5ff9979a5c051ac930ba004
 
 build:
   number: 0
